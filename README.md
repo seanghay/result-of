@@ -1,8 +1,8 @@
 ## A utility sealed class for handling failure & success.
 
-[ ![Build Status](https://travis-ci.org/seanghay/result-of.svg?branch=master)](https://travis-ci.org/seanghay/result-of)
+[![Build](https://github.com/seanghay/result-of/workflows/Java%20CI/badge.svg)](https://travis-ci.org/seanghay/result-of)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[ ![Bintray](https://api.bintray.com/packages/seanghay/maven/resultof/images/download.svg) ](https://bintray.com/seanghay/maven/resultof/_latestVersion)
+[![Bintray](https://api.bintray.com/packages/seanghay/maven/resultof/images/download.svg) ](https://bintray.com/seanghay/maven/resultof/_latestVersion)
 
 
 This is not the same as standard Kotlin `Result` because it is a **sealed class not an inline class**.
