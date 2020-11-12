@@ -11,7 +11,7 @@ This is not the same as standard Kotlin `Result` because it is a **sealed class 
 
 ```groovy
 dependencies {
-    implementation("com.seanghay.resultof:resultof:1.0.0")
+    implementation("com.seanghay:resultof:1.0.0")
 }
 ```
 
