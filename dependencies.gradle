@@ -1,0 +1,21 @@
+ext.deps = [
+    gradle_plugins: [
+        kotlin: "org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.0",
+        spotless: "com.diffplug.spotless:spotless-plugin-gradle:5.3.0",
+        versions: "com.github.ben-manes:gradle-versions-plugin:0.29.0",
+        maven_publish: "com.vanniktech:gradle-maven-publish-plugin:0.12.0",
+    ],
+
+    kotlin: [
+        stdlib8: "org.jetbrains.kotlin:kotlin-stdlib-jdk8",
+        test: [
+            mockito: "com.nhaarman.mockitokotlin2:mockito-kotlin:2.1.0"
+        ]
+    ],
+
+    test: [
+        junit: "junit:junit:4.13",
+        mockito: "org.mockito:mockito-core:3.5.9",
+        truth: "com.google.truth:truth:1.0.1"
+    ]
+]

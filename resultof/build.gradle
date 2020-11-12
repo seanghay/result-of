@@ -1,0 +1,19 @@
+apply plugin: "java-library"
+apply plugin: "kotlin"
+apply from: rootProject.file("dependencies.gradle")
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+apply from: rootProject.file('configure-maven-publish.gradle')
+
+dependencies {
+  implementation deps.kotlin.stdlib8
+
+  testImplementation deps.kotlin.test.mockito
+  testImplementation deps.test.junit
+  testImplementation deps.test.mockito
+  testImplementation deps.test.truth
+}
+
+apply from: rootProject.file("spotless_plugin_config.gradle")
