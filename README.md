@@ -10,13 +10,12 @@ val result = resultOf {
 }
 
 result.onSuccess { users -> println(users) }
-
 result.onFailure { throwable -> println(throwable) }
 ```
 
 
 ```groovy
 dependencies {
-    implementation("com.seanghay.resultof")
+    implementation("com.seanghay.resultof:resultof:1.0.0")
 }
 ```
