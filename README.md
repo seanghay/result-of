@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
-This is not the same as standard Kotlin `Result` because it is a **sealed class not value class (previously called inline class)**.
+This is not the same as standard Kotlin `Result` because it is a **sealed class not a `value class` (previously called `inline class`)**.
 
 ### Installation
 
