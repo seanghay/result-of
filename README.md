@@ -15,6 +15,26 @@ dependencies {
 }
 ```
 
+
+> ⚠️ The library is still in `jcenter()`, I plan to move it to `mavenCentral()` soon. However, if you removed `jcenter()` from your repositories, it will not be resolved. I suggest use jitpack for the time being.
+
+
+#### JitPack
+
+```groovy
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+dependencies {
+    implementation 'com.github.seanghay:result-of:1.0.0'
+}
+```
+
+
 ### Basic Usage
 
 ```kotlin
